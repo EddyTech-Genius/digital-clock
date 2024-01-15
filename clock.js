@@ -4,5 +4,5 @@ function workingClock(){
     const hours = now.getHours().toString().padStart(2 ,'0');
     const mins = now.getMinutes().toString().padStart(2 ,'0');
     const secs = now.getSeconds().toString().padStart(2 ,'0');
-    clock.textContent = `${hours}:${mins}`
+    clock.textContent = `${hours}:${mins}:${secs}`;
 }
